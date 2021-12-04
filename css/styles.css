@@ -1,0 +1,111 @@
+body {
+  background-color: #aeb2df;
+}
+
+ul li {
+  list-style-type: none;
+  text-align: center;
+  width: 100px;
+  background: #6e3cbc;
+  color: #fff;
+  padding: 5px;
+  margin: 4px;
+  margin-left: 35px;
+  border-radius: 20px;
+  display: inline block;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #ec255a;
+  border-width: 5px;
+}
+
+h1 {
+  color: #292c6d;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px 2px #292c6d, -1px -1px 1px #d2c7e4;
+}
+
+.introduction {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #396eb0;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px #292c6d, -1px -1px 1px #d2c7e4;
+}
+
+.education ul li {
+  width: 55%;
+  background-color: #544179;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 4px 4px 6px #292c6d, -3px -3px 5px #d2c7e4;
+  margin-bottom: 10px;
+}
+
+.education {
+  margin-left: 15px;
+  padding-bottom: 5px;
+  box-shadow: 4px 4px 6px #292c6d, -5px -5px 5px #d2c7e4;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.projects {
+  text-decoration: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  color: white;
+  background-color: #7267cb;
+  width: 19%;
+  padding: 3px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  box-shadow: 4px 4px 2px #292c6d, -3px -3px 5px #d2c7e4;
+  text-shadow: 1px 1px 3px #292c6d, -1px -1px 2px #d2c7e4;
+}
+
+.projects:hover {
+  box-shadow: 4px 4px 2px #292c6d inset, -3px -3px 5px #d2c7e4;
+}
+
+.skills {
+  margin: 15px;
+  border-radius: 10px;
+  display: table;
+  color: black;
+  flex-direction: row;
+  margin-left: 0px;
+  margin-right: 20px;
+  box-shadow: 4px 4px 6px #292c6d, -3px -3px 5px #d2c7e4;
+  /* text-align: center; */
+}
+
+ul > li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  box-shadow: 4px 4px 2px #292c6d, -3px -3px 5px #d2c7e4;
+  text-shadow: 3px 3px 2px #292c6d, -1px -1px 2px #d2c7e4;
+  margin-bottom: 10px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #292c6d;
+}
+
+a:focus {
+  color: yellow;
+}
